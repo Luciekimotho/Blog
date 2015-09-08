@@ -1,0 +1,52 @@
+h3{
+   text-align: center;
+    color: blueviolet;
+}
+
+#navmenu{	;
+  align: center;
+}
+
+#navmenu ul{
+	height:30px;
+    overflow: hidden;
+}
+
+#navmenu li{
+	list-style: none;
+	float: left;
+	position: relative;
+	background:#09F;
+	
+}
+
+#navmenu ul li a{
+	text-align:center;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	height:30px;
+	width:150px;
+	display:block;
+	color:silver;
+	padding-top:7px;
+}
+
+#navmenu ul ul{
+	position:absolute;
+	visibility: hidden;
+	top:30px;
+}
+
+#navmenu ul li:hover ul {
+	visibility:visible;
+}
+
+#navmenu li:hover {
+	background: darkgray;
+}
+
+#navmenu ul li:hover ul li a:hover{
+	background:white;
+	color:red;
+}
+
